@@ -24,7 +24,6 @@ let imgArr = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.
 
 const randomNumber = Math.floor(Math.random() * imgArr.length + 1);
 
-
 imgBlock.innerHTML = `<img style="width: ${window.innerWidth * 0.8}px; height: ${window.innerHeight * 0.8}px"; class="image" src="./images/${randomNumber}.jpg" alt="">`;
 
 
